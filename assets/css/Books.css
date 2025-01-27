@@ -1,0 +1,99 @@
+.books{
+    gap: 30px;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    > .card{
+        width: 280px;
+        border: none;
+        display: flex;
+        align-items: center;
+        > img{
+            width: 200px;
+            min-height: 250px;
+            height: 250px;
+        }
+        > div{
+            margin-top: 5px;
+            > a{
+                color: #0E0E12;
+                font-size: 23px;
+                font-family: 'Li Ador Noirrit', sans-serif;
+                transition: all .3s ease;
+                -webkit-transition: all .3s ease;
+                -moz-transition: all .3s ease;
+                -ms-transition: all .3s ease;
+                -o-transition: all .3s ease;
+            }
+            > a:hover{
+                color: #008fc3;
+            }
+            >p{
+                color: #22212a;
+                font-size: 16px;
+                margin: 0%;
+                font-weight: 600;
+                font-family: "Poppins", serif;
+            }
+            > .writer-name{
+                font-weight: 500;
+            }
+            > .price{
+                color: #008fc3;
+            }
+        }
+    }
+}
+/* book-store */
+
+
+.book-store{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > .card{
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        > div > img{
+            height: 300px;
+        }
+    }
+    > div{
+        width: 50%;
+        margin-top: 50px;
+        > div{
+            > h5{
+                color: #0E0E12;
+                font-size: 35px;
+                font-family: 'Li Ador Noirrit', sans-serif;
+            }
+            > div{
+                margin-top: 20px;
+                font-family: "Poppins", serif;
+                > h6{
+                    color: #22212a;
+                    font-size: 18px;
+                    font-weight: 550;
+                }
+                >p{
+                    color: #008fc3;
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin: 0%;
+                }
+            }
+            > .price{
+                margin-top: 20px;
+                color: #008fc3;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+

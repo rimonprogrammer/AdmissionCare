@@ -1,0 +1,534 @@
+/* see course start */
+.home{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    > .home-details{
+        width: 70%;
+        /* border: 1px solid; */
+        >h1{
+            color: #0E0E12;
+            font-size: 60px;
+            font-family: "Poppins", serif;
+            > span{
+                color: #008fc3;
+            }
+        }
+        > h2{
+            color: #0E0E12;
+            font-size: 50px;
+            margin-top: 20px;
+            font-family: 'Li Ador Noirrit', sans-serif;
+        }
+        >p{
+            color: #0E0E12;
+            font-size: 20px;
+            max-width: 500px;
+            margin-top: 20px;
+            font-family: 'Li Ador Noirrit', sans-serif;
+        }
+    }
+    > .home-img{
+        width: 30%;
+        background: linear-gradient(rgba(255, 254, 254, 0.3), rgba(255, 255, 255, 0.5)), url('../img/home-banner.png');
+        background-position: center right;
+        background-repeat: no-repeat;
+        background-size: 90% 450px;
+        height: 580px;
+        width: 100%;
+    }
+}
+/* see course end */
+
+/* course details start */
+.course_details{
+    margin-top: 50px;
+    > div{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        > div{
+            height: 250px;
+            width: 280px;
+            padding: 20px;
+            display: flex;
+            cursor: pointer;
+            margin-top: 30px;
+            align-items: center;
+            border-radius: 10px;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            > div{
+                height: 80px;
+                width: 80px;
+                padding: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #DBF7E1;
+                border-radius: 100px;
+                -webkit-border-radius: 100px;
+                -moz-border-radius: 100px;
+                -ms-border-radius: 100px;
+                -o-border-radius: 100px;
+                >img{
+                    width: 40px;
+                    width: 40px;
+                }
+            }
+            > .warning{
+                background-color: #FBDBDE !important;
+            }
+            >p{
+                margin: 0;
+                color: #008fc3;
+                font-weight: 500;
+                margin-top: 20px;
+                font-size: 23px;
+                font-family: 'Li Ador Noirrit', sans-serif;
+            }
+            > h5{
+                color: #131313;
+                font-weight: 500;
+                font-size: 30px;
+                margin: 0;
+                font-family: 'Li Ador Noirrit', sans-serif;
+            }
+        }
+    }
+}
+/* course details end */
+
+
+/* our courses start */
+/* course.css */
+/* our courses end */
+
+
+/* swiper slider start */
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-pagination{
+    margin-top: 20px;
+    height: 50px;
+    position: relative !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+    background-color: gray;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.swiper-pagination-bullet-active {
+    width: 20px !important; 
+    height: 20px !important;
+    border: 2px solid #007bff;
+    background-color: transparent !important;
+    opacity: 1; 
+}
+
+/* swiper slider end */
+
+/* free course start */
+.free_card{
+    cursor: pointer;
+    max-width: 300px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    > .abs_imgs{
+        position: absolute;
+    }
+    > .card_img_1{
+        background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(2, 12, 47, 0.8)), url('../img/course3.jpg');
+    }
+    > .card_img_2{
+        background: linear-gradient(rgba(255, 254, 254, 0.5), rgb(2, 12, 47, .8)), url('../img/course2.jpg');
+    }
+    > .card_img_3{
+        background: linear-gradient(rgba(255, 254, 254, 0.5), rgb(2, 12, 47, .8)), url('../img/course1.jpg');
+    }
+    > .card_img{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        width: 100%;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        > .abs_imgs{
+            color: #fff;
+            font-weight: 700;
+            padding-bottom: 10px;
+            font-family: "Oswald", serif;
+            > h5{
+                font-size: 20px;
+            }
+            >p{
+                margin: 0%;
+                font-size: 14px;
+            }
+            >.hr_abs{
+                display: flex;
+                justify-content: center;
+                >p{
+                    height: 1.5px;
+                    width: 50%;
+                    margin: 0%;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+    > .card-body{
+        text-align: start;
+        > .card-title{
+            color: #0E0E12;
+            font-size: 27px;
+            font-family: 'Li Ador Noirrit', sans-serif;
+        }
+        >p{
+            color:#03A19E;
+            font-weight: 500;
+            font-size: 25px;
+            font-family: 'Li Ador Noirrit', sans-serif;
+        }
+        > .details{
+            gap: 10px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 0%;
+            width: 100%;
+            > p{
+                margin: 0%;
+                padding: 0px 10px;
+                font-size: 18px;
+                color: #1F2937;
+                background-color: #e3e4e6;
+                font-family: 'Li Ador Noirrit', sans-serif;
+                border-radius: 5px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                -ms-border-radius: 5px;
+                -o-border-radius: 5px;
+}
+        }
+    }
+}
+/* free course end */
+
+
+/* succeed section start */
+.succeed{
+    padding: 50px 0;
+    margin-top: 130px;
+    background-color: rgb(4, 167, 227, .1)
+}
+.succeed_card{
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    min-height: 300px;
+    min-width: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    border: 1.5px solid #03A19E;
+    font-family: "Oswald", serif;
+    color: #0E0E12;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        > img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -o-border-radius: 50px;
+        }
+    }
+    > h5{
+        margin-top: 20px;
+    }
+    >p{
+        margin: 0%;
+    }
+    .session,
+    .University{
+        color: #2e2d3a;
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .batch{
+        color: #03A19E;
+        margin-top: 10px;
+        font-family: 'Li Ador Noirrit', sans-serif;
+
+    }
+}
+/* succeed section end */
+
+
+
+/* student FeedBack start */
+.swiper-arrow{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-top: 20px;
+    > div{
+        position: relative;
+        > img{
+            height: 40px;
+        }
+    }
+}
+.FeedBack_slide{
+    cursor: pointer;
+    padding-top: 20px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    > div{
+        width: 50%;
+        padding: 20px;
+    }
+    > .feedback_details{
+        padding-right: 40px;
+        text-align: start;
+        > h1,
+        > p{
+            text-align: start;
+        }
+        > p{
+            color: #0E0E12;
+            font-size: 22px;
+            text-align: justify;
+            font-family: 'Li Ador Noirrit', sans-serif;
+        }
+        > div{
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            > div{
+                gap:10px;
+                display: flex;
+                > img{
+                    height: 60px;
+                    width: 60px;
+                    border-radius: 50px;
+                    -webkit-border-radius: 50px;
+                    -moz-border-radius: 50px;
+                    -ms-border-radius: 50px;
+                    -o-border-radius: 50px;
+                }
+                > div{
+                    margin-top: 3px;
+                    > h5{
+                        margin: 0%;
+                        color: #0E0E12;
+                        font-size: 27px;
+                        font-family: 'Li Ador Noirrit', sans-serif;
+                    }
+                    >p{
+                        margin: 0%;
+                        color: #2e2d3a;
+                        font-size: 15px;
+                        font-family: "Oswald", serif;
+                    }
+                }
+            }
+            > svg{
+                width: 60px;
+                height: 80px;
+            }
+        }
+    }
+    > .feedback_video {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    > .FD_video1{
+        background: linear-gradient(rgba(255, 254, 254, 0.2), rgb(2, 12, 47, .1)), url('../img/feedback.jpg');
+    }
+    > .FD_video2{
+        background: linear-gradient(rgba(255, 254, 254, 0.2), rgb(2, 12, 47, .1)), url('../img/feedback2.jpg');
+    }
+    > .FD_video3{
+        background: linear-gradient(rgba(255, 254, 254, 0.2), rgb(2, 12, 47, .1)), url('../img/feedback3.jpg');
+    }
+}
+.modal{
+    background-color: rgb(59, 59, 67, .5);
+}
+.modal-dialog{
+    min-width: 600px !important;
+    margin-top: 100px;
+    height: 400px;
+    > div{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        border: none;
+        background-color: transparent;
+        > button{
+            width: 50px;
+            height: 50px;
+            border: none;
+            cursor: pointer;
+            font-size: 35px;
+            color: #ffffff;
+            background-color: transparent;
+        }
+    }
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+/* student FeedBack start */
+
+
+/* other-service start */
+.other-service{
+    padding: 50px 0;
+    margin-top: 100px;
+    background-color: rgb(4, 167, 227, .1);
+    background-color: #FEF2F2;
+}
+.services{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    > div{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 200px;
+        min-width: 225px;
+        width: 225px;
+        text-align: center;
+        margin-top: 20px;
+        background-color: transparent;
+        /* box-shadow: rgb(4, 167, 227, .5) 0px 5px 15px; */
+        box-shadow: rgb(255, 74, 74, .4) 0px 5px 15px;
+        font-family: "Oswald", serif;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        > div{
+            width: 80px;
+            height: 80px;
+            padding: 20px;
+            /* background-color: #03A19E; */
+            background-color: #FF4A4A;
+            border-radius: 100px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            -ms-border-radius: 100px;
+            -o-border-radius: 100px;
+            > img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        >p{
+            color: #2b2b36;
+            font-size: 20px;
+            margin-top: 20px;
+            font-family: 'Li Ador Noirrit', sans-serif;
+        }
+    }
+}
+/* other-service end */
+
+
+/* universities start */
+.universities{
+    margin-top: 130px;
+}
+.university{
+    max-width: 250px;
+    width: 250px;
+    cursor: pointer;
+    min-height: 230px;
+    border-color: #03A19E;
+    background-color: #F4F4F4;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    > div{
+        height: 100px;
+        width: 100px;
+    }
+    >p{
+        color: #2b2b36;
+        font-size: 24px;
+        font-family: 'Li Ador Noirrit', sans-serif;
+    }
+}
+/* universities end */

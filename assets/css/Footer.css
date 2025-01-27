@@ -1,0 +1,133 @@
+footer{
+    color: #d8d5d5;
+    padding-top: 50px;
+    margin-top: 100px;
+    background-color: #23232D;
+    > div {
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        > .Contact_info,
+        > .Navigation,
+        > .popular_course{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-direction: column;
+        }
+        > div{
+            width: 25%;
+            > div > h4,
+            > h4{
+                font-weight: 600;
+                font-size: 25px;
+                margin-bottom: 20px;
+                font-family: "Poppins", serif;
+            }
+        }
+    }
+}
+.footer_desc{
+    /* admission care logo */
+    > a{
+        cursor: pointer;
+        color: #e9e3e3;
+        font-size: 25px;
+        font-weight: 900;
+        font-family: "Oswald", serif;
+        line-height: 20px;
+        > span{
+            color: #008fc3;
+        }
+    }
+    > P{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    /* social icons */
+    > div{
+        gap: 20px;
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        > a{
+            padding: 10px;
+            padding-bottom: 9px;
+            display: flex;
+            color: #fff;
+            align-items: center;
+            justify-content: center;
+            background-color: #3B3B44;
+            transition: all .3s ease;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -ms-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            border-radius: 100px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            -ms-border-radius: 100px;
+            -o-border-radius: 100px;
+            > i{
+                font-size: 20px;
+            }
+        }
+        > a:hover{
+            background-color: #04a7e3;
+        }
+    }
+}
+.Navigation,
+.Contact_info,
+.popular_course{
+    > div>  ul > li {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        font-family: "Poppins", serif;
+        
+        /*Navigation*/
+        > a{
+            color: #d8d5d5;
+            margin-left: -8px;
+            margin-top: 2px;
+            transition: all .3s ease;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -ms-transition: all .3s ease;
+            -o-transition: all .3s ease;
+}
+        > a:hover{
+            color: #008fc3;  
+        }
+
+
+        /* contact info */
+        > i{
+            color: #008fc3;   
+        }
+        >p{ 
+            margin: 0%;
+        }
+    }
+}
+.popular_course{
+    > div>  ul > li {
+        font-family: "Noto Sans Bengali", serif;
+    }
+}
+.payment{
+    margin-top: 30px;
+    padding-bottom: 10px;
+    > img{
+        max-height: 50px;
+        width: 100%;
+    }
+}
+.footer_bottom{
+    color: #d8d5d5;
+    font-size: 13px;
+    background-color: #3B3B44
+}
